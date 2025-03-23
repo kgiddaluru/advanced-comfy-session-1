@@ -1,6 +1,6 @@
 {
     "last_node_id": 66,
-    "last_link_id": 90,
+    "last_link_id": 91,
     "nodes": [
         {
             "id": 10,
@@ -630,10 +630,10 @@
                 }
             ],
             "properties": {
-                "cnr_id": "comfyui_essentials",
+                "aux_id": "cubiq/ComfyUI_essentials",
                 "ver": "33ff89fd354d8ec3ab6affb605a79a931b445d99",
                 "Node name for S&R": "ImageResize+",
-                "aux_id": "cubiq/ComfyUI_essentials"
+                "cnr_id": "comfyui_essentials"
             },
             "widgets_values": [
                 1024,
@@ -1992,7 +1992,7 @@
                     "type": "IMAGE",
                     "links": [
                         87,
-                        88
+                        91
                     ],
                     "slot_index": 0
                 }
@@ -2142,7 +2142,7 @@
                 {
                     "name": "images",
                     "type": "IMAGE",
-                    "link": 88
+                    "link": 91
                 }
             ],
             "outputs": [
@@ -2831,14 +2831,6 @@
             "IMAGE"
         ],
         [
-            88,
-            58,
-            0,
-            64,
-            0,
-            "IMAGE"
-        ],
-        [
             89,
             65,
             0,
@@ -2853,6 +2845,14 @@
             47,
             0,
             "STRING"
+        ],
+        [
+            91,
+            58,
+            0,
+            64,
+            0,
+            "IMAGE"
         ]
     ],
     "groups": [
@@ -2990,10 +2990,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 1.1,
+            "scale": 1.2100000000000002,
             "offset": [
-                348.52781037275685,
-                -1105.2488359269257
+                -4075.285456245977,
+                -1773.1163457312216
             ]
         }
     },
